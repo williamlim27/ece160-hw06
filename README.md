@@ -13,7 +13,7 @@ Your project MUST build with the provided `Makefile`, though you may modify the 
 
 You should be able to build your project simply by typing `make` at the command line from within the project directory.
 
-When you run `./hw06`, it should produce the exact output in `example_output.txt`.
+When you run `./hw06`, it should produce the exact output in `example_output.txt`. Note that this makefile uses a `*.cpp` wildcard to find source files, so you shouldn't have any extra `.cpp` files lying around in your local directory when you build the project. 
 
 When I test your program, I will use a different `main.cpp`, so make sure your implementations are generally applicable!
 
