@@ -1,7 +1,8 @@
 CXX=clang++
-CXXFLAGS=-std=c++11 -Wall
+CXXFLAGS:=-std=c++11 -Wall
+SOURCES:=${wildcard *.cpp}
 
-all: hw05
-hw05: main.cpp Student.cpp MastersStudent.cpp StudentDatabase.cpp
-	$(CXX) -o hw05 Student.cpp main.cpp $(CXXFLAGS)
+all: hw06
+hw06: ${SOURCES}
+	$(CXX) -o hw06 ${SOURCES} $(CXXFLAGS)
   
