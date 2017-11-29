@@ -1,5 +1,6 @@
 # ece160-hw06
-## Due Tuesday, December 12th at 11:59 PM
+## Due Wednesday, December 20th at 11:59 PM
+### I will be avilable on Google hangouts for realtime homework help from 6-9 on the 20th. You can also email me questions and/or code any time and I will try to respond within a few hours. I will pull assignments starting on the 13th so I can get grades out early for anyone who has a working program in GitHub. Happy winter break!
 
 This assignment is an extension of [hw05](https://github.com/cooper-ece160/ece160-hw05) with two major additions: 
   * A derived `MastersStudent` class that inherits from `Student` and adds an additional graduation year and a separate vector for post-undergrad grades.
